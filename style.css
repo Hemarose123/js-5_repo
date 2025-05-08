@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.container {
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.input-section {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px;
+  background: #00b894;
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #019875;
+}
+
+#studentList {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f0f0f0;
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: move;
+}
+
+li.dragging {
+  opacity: 0.5;
+}
+
+li span {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.editBtn, .deleteBtn {
+  margin-left: 5px;
+  background: #6c5ce7;
+}
+
+.deleteBtn {
+  background: #d63031;
+}
+
+.extras {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+}
